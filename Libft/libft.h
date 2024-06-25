@@ -6,7 +6,7 @@
 /*   By: mfrancis <mfrancis@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 14:19:09 by mfrancis          #+#    #+#             */
-/*   Updated: 2024/06/10 09:49:39 by mfrancis         ###   ########.fr       */
+/*   Updated: 2024/06/23 18:07:07 by mfrancis         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,4 +98,12 @@ char	*get_next_line(int fd);
 int		ft_strlen_gnl(char *s);
 char	*ft_strjoin_gnl(char *prefix, char *sufix);
 int		organize_buffer(char *buffer);
+
+// List / New functions from push_swap
+// void				print_data_a_front(t_data *data);
+// void				print_data_b_front(t_data *data);
+// void				print_data_a_back(t_data *data);
+// void				print_data_b_back(t_data *data);
+// void				free_exit(t_data *data, char *str);
+// void				free_node(t_node *node);
 #endif
